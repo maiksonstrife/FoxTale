@@ -1,12 +1,13 @@
 # FoxTale
 
 # Play Here on Desktop Browser
+http://azure.infordoc.com/Maikson/Bootstrap/FoxTaleWeb/index.html
 <h4>CONTROLS:</h4>
 Walking: "W", "D"<br>
 Jumping: "Space"<br>
 Action: "B"
 
-http://azure.infordoc.com/Maikson/Bootstrap/FoxTaleWeb/index.html
+
 
 A Repository for a completed Staged/MetroidVania Game Example
 <br><br>
