@@ -1,4 +1,4 @@
-# FoxTale, A metroidvania to help frogs to find the sacred [FROG CHAIR]
+# FoxTale, a setup for a metroidvania pipeline
 
 # Play Here on Desktop Browser
 http://azure.infordoc.com/Maikson/Bootstrap/FoxTaleWeb/index.html
