@@ -2,7 +2,7 @@
 A Repository for a completed Staged/MetroidVania Game Example
 
 # Play Here on Desktop Browser
-http://azure.infordoc.com/Maikson/Bootstrap/FoxTaleWeb/index.html
+https://maiksonstrife.github.io/FoxTalePlay/
 <h4>CONTROLS:</h4>
 Walking: "W", "D"<br>
 Jumping: "Space"<br>
