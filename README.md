@@ -1,4 +1,5 @@
-# FoxTale, a setup for a metroidvania pipeline
+# FoxTale
+A Repository for a completed Staged/MetroidVania Game Example
 
 # Play Here on Desktop Browser
 http://azure.infordoc.com/Maikson/Bootstrap/FoxTaleWeb/index.html
@@ -9,7 +10,7 @@ Action: "B"
 
 
 
-A Repository for a completed Staged/MetroidVania Game Example
+
 <br><br>
 
 # Rooms System easy to setup
