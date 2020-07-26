@@ -1,0 +1,26 @@
+﻿*separe cada ator por espaço *cada linha é igual a menos 1 no inspector (31 = 30) *cada linha é igual a uma caixa de fala *o txt para ter acentos deve ser salvo como UTF-8 (txt editor do windows -> salvar como > Coidificacao UTF-8)
+
+Sapo 1:
+Pegue a cadeira de volta, os humanos não podem simplesmente fazer o que querem, sem prestar contas com a natureza!
+
+Sapo 2:
+Antigamente isso aqui era tudo mato Ò__Ó
+
+Sapo 3:
+Já parou pra observar que algumas casas existem em lugares inimagináveis,
+quem é que mora na colina mais alta?
+
+Sapo 4:
+Esses sapos jovens, se acham o rei do pedaço, mas sabe... Qualquer idade que tenha, a vida pode ser apreciada
+
+Sapo 5:
+Um dia eu tava cheirando meu pé quando uma lonta soltou raios lazers pelos olhos e me derrubou,
+elas não respeitam mais ninguém!
+
+Sapo 6:
+Uma rã uma vez nasceu abençoada, salvou todos os sapos da extinção, se sacrificou por nós, 
+mas sua história está cada vez mais esquecida, onde ela morreu deu lugar a uma arvore especial,
+essa arvore deu a luz a uma linda cadeira sapo
+
+Sapo dica:
+Essas caixas que ficam caindo na sua cabeça, porque não pula em cima delas e vê no que dá ?A

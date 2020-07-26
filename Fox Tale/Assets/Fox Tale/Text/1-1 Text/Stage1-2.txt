@@ -1,0 +1,4 @@
+﻿*separe cada ator por espaço *cada linha é igual a menos 1 no inspector (31 = 30) *cada linha é igual a uma caixa de fala *o txt para ter acentos deve ser salvo como UTF-8 (txt editor do windows -> salvar como > Coidificacao UTF-8)
+
+Sapo Foot:
+Eu não vou lavar o pé!!!

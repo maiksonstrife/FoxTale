@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dbd0ebaad5d50674fbdf7eceb434a153
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - sprite: {instanceID: 0}
+  - checkpointOn: {fileID: 21300000, guid: 0de9a52a86712d344adedb2493bb65d1, type: 3}
+  - checkpointOff: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

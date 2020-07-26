@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Stomp
+  - StompNpc
+  - Platform
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Ground
+  - Platform
+  - CameraEffect
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BG
+    uniqueID: 3697206361
+    locked: 0
+  - name: Terrain_BG
+    uniqueID: 3845879863
+    locked: 0
+  - name: Terrain
+    uniqueID: 717814555
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Collectibles
+    uniqueID: 1323504071
+    locked: 0
+  - name: Player
+    uniqueID: 1525442421
+    locked: 0
+  - name: UI
+    uniqueID: 3664945693
+    locked: 0
+  - name: Foreground
+    uniqueID: 1914215705
+    locked: 0
+  - name: CameraEffect
+    uniqueID: 2976832587
+    locked: 0

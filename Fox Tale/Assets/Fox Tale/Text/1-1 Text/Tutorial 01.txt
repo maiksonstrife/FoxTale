@@ -1,0 +1,39 @@
+﻿*separe cada ator por espaço *cada linha é igual a menos 1 no inspector (31 = 30) *cada linha é igual a uma caixa de fala *o txt para ter acentos deve ser salvo como UTF-8 (txt editor do windows -> salvar como > Coidificacao UTF-8)
+
+Sapo  1:
+Vou vigiar sua casa fica de boa brow, nada de errado aqui (ribbit!)
+
+Sapo A :
+Existe uma lenda antiga, de um sapo veloz que corre sem cansar,
+As vezes, escutamos seus passos... "Plap Plap Plap"
+
+Sapo B :
+Essa arvore sagrada... 
+Sua madeira produz a [CADEIRA SAPO] a cada mil anos, 
+porém a cadeira nos foi roubada
+
+Sapo C :
+Ficamos tristes sem a [CADEIRA SAPO] e Bebemos toda [AGUA COM TOXINA],
+sem a [AGUA COM TOXINA] ficamos VERDES, AMARELOS, LOUCOS E ENFURECIDOS, 
+Err... Acho que eu... RIIIIIIIBIITT...
+
+Sapo Bloqueio :
+Em nome da [CADEIRA SAPO], por favor, console os sapos na taverna
+
+Sapo Bloqueio 2 :
+Precisamos da sua ajuda, muitos sapos a frente ficaram elouquecidos,
+bebemos toda [AGUA COM TOXINA] que restava neste reservatorio
+Exagerei... (Ribbit)
+*O sapo te encara com olhos brilhantes e cheios de amor* 
+Pode passar... nos ajude Bonbonzinho (ribbit)
+
+Sapo Club :
+Apenas aquelas pessoas que beberam [AGUA COM TOXINA] 
+entram na boate, sabemos pela cor [ROSEADA]
+
+Sapo Caverna :
+Evite cair das plataformas, 
+O sapo esta a 2 HORAS sem [AGUA COM TOXINA]
+
+Sapo Trampolim :
+Vamos eu te ajudo, pula na testa do sapo
