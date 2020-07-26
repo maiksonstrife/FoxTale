@@ -4,7 +4,7 @@
 http://azure.infordoc.com/Maikson/Bootstrap/FoxTaleWeb/index.html
 
 A Repository for a completed Staged/MetroidVania Game Example
-<br<br>
+<br><br>
 
 # Rooms System easy to setup
 ![](img/RoomsSystem.png)
@@ -15,7 +15,7 @@ A Repository for a completed Staged/MetroidVania Game Example
 # Working Checkpoints
 ![](img/Checkpoints.png)
 
-# Dialogs easy to setup, a simple txt file
+# Dialogs easy to setup on txt file
 ![](img/txtExample.png)
 
 # Dialogs In-Game
@@ -25,16 +25,16 @@ A Repository for a completed Staged/MetroidVania Game Example
 ![](img/Finishing_Stages.png)
 
 # World Map
--Stage Select
--Keep Track "Save System" (multi Platform)
--Keep track of Collectibles and Time
+-Stage Select<br>
+-Keep Track "Save System" (multi Platform)<br>
+-Keep track of Collectibles and Time<br>
 ![](img/Wolrd_Map.png)
 
 # Final Boss
 ![](img/FinalBoss.png)
 
 # Game Ending
--Bring back the FROG CHAIR to the frogs!!!
+-Bring back the FROG CHAIR to the frogs!!!<br>
 ![](img/FrogChairIsFound.png)
 
 # Stage Ending
@@ -44,8 +44,8 @@ A Repository for a completed Staged/MetroidVania Game Example
 ![](img/BehaviorStateMachine.png)
 
 # Player Controller on Good Practices
--Physics is handled in FixedUpdate to check booleans
--Controls is based on boolean checks in FixedUpdate
+-Physics is handled in FixedUpdate to check booleans<br>
+-Controls is based on boolean checks in FixedUpdate<br>
 ![](img/PlayerPhysics.png)
 
 # Cool Effects using Unity built-in Shader / Universal Render Pipeline
