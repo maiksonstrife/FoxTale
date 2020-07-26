@@ -26,7 +26,7 @@ A Repository for a completed Staged/MetroidVania Game Example
 
 # World Map
 -Stage Select<br>
--Keep Track "Save System" (multi Platform)<br>
+-Keep Track on Progression: Save System (multi Platform)<br>
 -Keep track of Collectibles and Time<br>
 ![](img/Wolrd_Map.png)
 
