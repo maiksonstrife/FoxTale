@@ -44,9 +44,6 @@ Action: "B"
 -Bring back the FROG CHAIR to the frogs!!!<br>
 ![](img/FrogChairIsFound.png)
 
-# Stage Ending
-![](img/Finishing_Stages.png)
-
 # State Machine Scripting for Boss Behavior
 ![](img/BehaviorStateMachine.png)
 
