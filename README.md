@@ -6,10 +6,8 @@ https://maiksonstrife.github.io/FoxTalePlayGitPage/
 <h4>CONTROLS:</h4>
 Walking: "W", "D"<br>
 Jumping: "Space"<br>
-Action: "B"
-
-
-
+Action: "B"<br>
+Change Screen Size: "ESC" Fullscreen (Native: 1080p) / Windowed (Forced: 720p)
 
 <br><br>
 
