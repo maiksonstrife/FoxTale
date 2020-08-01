@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 
 public class frogBarrage : MonoBehaviour
 {
@@ -46,7 +45,7 @@ public class frogBarrage : MonoBehaviour
                 
             }
 
-            if (Input.GetKeyDown(KeyCode.B) || CrossPlatformInputManager.GetButtonDown("Action"))
+            if (Input.GetKeyDown(KeyCode.B))
             {
                 hasTalked = true;
                 PlayerController.instance.freezePlayer(true);

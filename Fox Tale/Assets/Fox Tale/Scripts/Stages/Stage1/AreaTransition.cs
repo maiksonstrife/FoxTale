@@ -17,7 +17,7 @@ public class AreaTransition : MonoBehaviour
 
             if (max_X == CameraController.instance.max_X || max_Y == CameraController.instance.max_Y)
             {
-                Debug.Log("returned false");
+                //Debug.Log("returned false");
 
                 return false;
             }

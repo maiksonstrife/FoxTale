@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerOverWorld : MonoBehaviour
 {
@@ -101,8 +100,8 @@ public class PlayerOverWorld : MonoBehaviour
     {
         if (isAndroid)
         {
-            axisHorizontal = CrossPlatformInputManager.GetAxisRaw("Horizontal");
-            axisVertical = CrossPlatformInputManager.GetAxisRaw("Vertical");
+            axisHorizontal = Input.GetAxisRaw("Horizontal");
+            axisVertical = Input.GetAxisRaw("Vertical");
         }
         else
         {

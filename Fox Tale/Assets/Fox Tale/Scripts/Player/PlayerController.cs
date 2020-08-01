@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 using Pixeye.Unity;
 
 public class PlayerController : MonoBehaviour
@@ -100,6 +99,20 @@ public class PlayerController : MonoBehaviour
         
     }
 
+    public void freezePlayer(bool doFreeze)
+    {
+        if (doFreeze)
+        {
+            isFreezed = true;
+            doMove = false;
+        }
+        else
+        {
+            isFreezed = false;
+            doMove = true;
+        }
+    }
+
     public void knockbackPlayer()
     {
         doKnockback = true;
@@ -154,30 +167,29 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+
     private void FixedUpdate()
     {
-
-
         if (doMove)
         {
             //PC
-            //theRb.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal") , theRb.velocity.y);
+            theRb.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal") , theRb.velocity.y);
             //ANDROID
-            theRb.velocity = new Vector2(moveSpeed * CrossPlatformInputManager.GetAxis("Horizontal"), theRb.velocity.y);
+            //theRb.velocity = new Vector2(moveSpeed * CrossPlatformInputManager.GetAxis("Horizontal"), theRb.velocity.y);
 
             //PC
-            //if (Input.GetAxisRaw("Horizontal") != 0)
-            //{
-            //    camTarget.localPosition = new Vector3(Mathf.Lerp(camTarget.localPosition.x, aheadAmount * Input.GetAxisRaw("Horizontal"), aheadSpeed * Time.deltaTime), camTarget.localPosition.y, camTarget.localPosition.z);
-            //}
-            //ANDROID
-            if (CrossPlatformInputManager.GetAxisRaw("Horizontal") != 0)
+            if (Input.GetAxisRaw("Horizontal") != 0)
             {
-                camTarget.localPosition = new Vector3(Mathf.Lerp(camTarget.localPosition.x, aheadAmount * CrossPlatformInputManager.GetAxisRaw("Horizontal"), aheadSpeed * Time.deltaTime), camTarget.localPosition.y, camTarget.localPosition.z);
+                camTarget.localPosition = new Vector3(Mathf.Lerp(camTarget.localPosition.x, aheadAmount * Input.GetAxisRaw("Horizontal"), aheadSpeed * Time.deltaTime), camTarget.localPosition.y, camTarget.localPosition.z);
             }
+            //ANDROID
+            //if (CrossPlatformInputManager.GetAxisRaw("Horizontal") != 0)
+            //{
+            //    camTarget.localPosition = new Vector3(Mathf.Lerp(camTarget.localPosition.x, aheadAmount * CrossPlatformInputManager.GetAxisRaw("Horizontal"), aheadSpeed * Time.deltaTime), camTarget.localPosition.y, camTarget.localPosition.z);
+            //}
 
             //Particle System foot
-            if (CrossPlatformInputManager.GetAxisRaw("Horizontal") != 0 && isGrounded)
+            if (Input.GetAxisRaw("Horizontal") != 0 && isGrounded)
             {
                 footEmission.rateOverTime = 15f;
             }
@@ -257,19 +269,6 @@ public class PlayerController : MonoBehaviour
         if (isFreezed)
         {
             theRb.velocity = new Vector2(0f, theRb.velocity.y);
-        }
-    }
-
-    public void freezePlayer(bool doFreeze)
-    {
-        if (doFreeze){
-            isFreezed = true;
-            doMove = false;
-        }
-        else
-        {
-            isFreezed = false;
-            doMove = true;
         }
     }
 

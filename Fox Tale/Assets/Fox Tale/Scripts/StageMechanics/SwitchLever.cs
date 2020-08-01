@@ -1,6 +1,4 @@
-﻿
-using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
+﻿using UnityEngine;
 
 public class SwitchLever : MonoBehaviour
 {
@@ -23,7 +21,7 @@ public class SwitchLever : MonoBehaviour
     {
         if (playerDetected)
         {
-            if(Input.GetKeyDown(KeyCode.B) ||  CrossPlatformInputManager.GetButtonDown("Action"))
+            if(Input.GetKeyDown(KeyCode.B))
             {
                 if (isLeverUp)
                 {

@@ -66,7 +66,7 @@ public class BossTankController : MonoBehaviour
         }
     }
 
-
+    //stateMachine
     public void takeHit()
     {
         currentState = bossStates.hurt;
@@ -94,7 +94,6 @@ public class BossTankController : MonoBehaviour
         }
     }
 
-    //stateMachine
     private void bossShoot()
     {
         shotCounter -= Time.deltaTime;
@@ -106,7 +105,6 @@ public class BossTankController : MonoBehaviour
             newBullet.transform.localScale = TheBoss.localScale;
         }
     }
-
 
     private void bossHurt()
     {
