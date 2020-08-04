@@ -9,6 +9,14 @@ Those having the objectives in mind:
 - [x] Make use at least once of each Unity3D features for 2D Games
 - [x] Game feel improvement techniques
 
+# Play Here on Desktop Browser
+https://maiksonstrife.github.io/FoxTalePlayGitPage/
+<h4>CONTROLS:</h4>
+Walking: "W", "D"<br>
+Jumping: "Space"<br>
+Action: "B"<br>
+Change Screen Size: "ESC" Fullscreen (Native: 1080p) / Windowed (Forced: 720p)
+
 ## This project was made possible by the following Graphics assets:
 ### Stages Art
 [Sunny Land By Ansimuz (stages graphics)](https://assetstore.unity.com/packages/2d/characters/sunny-land-103349)<br>
@@ -18,55 +26,51 @@ Those having the objectives in mind:
 ### Unity3d Improvements
 [Decorate Foldout (Unity3D inspector improvement asset)](https://github.com/PixeyeHQ/InspectorFoldoutGroup)
 
+# Game Features snippets
 
-# Play Here on Desktop Browser
-https://maiksonstrife.github.io/FoxTalePlayGitPage/
-<h4>CONTROLS:</h4>
-Walking: "W", "D"<br>
-Jumping: "Space"<br>
-Action: "B"<br>
-Change Screen Size: "ESC" Fullscreen (Native: 1080p) / Windowed (Forced: 720p)
-
-<br><br>
-
-# Rooms System easy to setup
+## Rooms System easy to setup
 ![](img/RoomsSystem.png)
 
-# Room System In-Game
-![](img/RoomsSystem_InGame.png)
+## Room System In-Game
+![Alt Text](https://media.giphy.com/media/gJzeZ3U6b4mjkbKIql/giphy.gif)
 
-# Working Checkpoints
+## Working Checkpoints
 ![](img/Checkpoints.png)
 
-# Dialogs easy to setup on txt file
+## Dialogs easy to setup on txt file
 ![](img/txtExample.png)
 
-# Dialogs In-Game
-![](img/txt_InGame.png)
+## Dialogs In-Game
+![Alt Text](https://media.giphy.com/media/MEROFwO8rxQ6comvZc/giphy.gif)
 
-# Stage Ending
+## Stage Ending
 ![](img/Finishing_Stages.png)
 
-# World Map
+## World Map
 -Stage Select<br>
 -Keep Track on Progression: Save System (multi Platform)<br>
 -Keep track of Collectibles and Time<br>
 ![](img/Wolrd_Map.png)
 
-# Final Boss
+## Final Boss
 ![](img/FinalBoss.png)
 
-# Game Ending
+## Game Ending
 -Bring back the FROG CHAIR to the frogs!!!<br>
 ![](img/FrogChairIsFound.png)
 
-# State Machine Scripting for Boss Behavior
+## State Machine Scripting for Boss Behavior
 ![](img/BehaviorStateMachine.png)
 
-# Player Controller on Good Practices
+## Player Controller on Good Practices
 -Physics is handled in FixedUpdate to check booleans<br>
 -Controls is based on boolean checks in FixedUpdate<br>
 ![](img/PlayerPhysics.png)
 
-# Cool Effects using Unity built-in Shader / Universal Render Pipeline
+## Cool Effects using Universal Render Pipeline + 2D Shader Graph
+![Alt Text](https://media.giphy.com/media/egue134T4NjeGsqZhc/giphy.gif)
+
+## Shaders
 ![Alt Text](https://media.giphy.com/media/UsAGaiJuVnB1A6JwyY/giphy.gif)
+
+
