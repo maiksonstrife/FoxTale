@@ -50,6 +50,17 @@ public class OverworldUIController : MonoBehaviour
         levelInfoPanel.SetActive(true);
     }
 
+    public void showInfoLocked()
+    {
+        levelName.text = "LOCKED, CLEAR PREVIOUS STAGE FIRST";
+        gemsFound.text = "FOUND: 0";
+        gemsInLevel.text = "IN LEVEL: 0";
+        timeAttack.text = "TIME ATTACK: --:--'s";
+        levelInfoPanel.SetActive(true);
+    }
+
+
+
     public void hideInfo()
     {
         levelInfoPanel.SetActive(false);

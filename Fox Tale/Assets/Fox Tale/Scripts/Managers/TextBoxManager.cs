@@ -53,7 +53,6 @@ public class TextBoxManager : MonoBehaviour
     public void disableTextBox()
     {
         textBox.SetActive(false);
-        PlayerController.instance.isStopInput = false;
     }
 
     public void UpdateCoroutine(int start)

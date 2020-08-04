@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour
     public static PlayerController instance;
 
     public float velocityY;
-    public bool isStopInput;
 
     [Foldout("Knockback")]
     public float knobackForce, knockbackCounter, knockbackLenght;
@@ -20,6 +19,7 @@ public class PlayerController : MonoBehaviour
     public float resetTimerGhostJump;
     public bool isGrounded;
     public bool isSwimming;
+    public bool isFreezed;
 
     [Foldout("Get Components", true)]
     public Rigidbody2D theRb;
@@ -38,7 +38,6 @@ public class PlayerController : MonoBehaviour
     //Update
     private bool isJump;
     private bool isDoubleJump;
-    private bool isFreezed;
 
     // FixedUpdate
     private bool doMove;
@@ -48,7 +47,6 @@ public class PlayerController : MonoBehaviour
     private bool doBump;
     public bool doFlip;
     private bool wasOnGround;
-
 
     //trying new camera
     public Transform camTarget;
@@ -86,7 +84,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         velocityY = theRb.velocity.y;
-        if (!PauseMenu.instance.isPaused && !isStopInput)
+        if (!PauseMenu.instance.isPaused && !isFreezed)
         {
             playerMovement();
         }
@@ -97,30 +95,6 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("isGrounded", isGrounded);
         }
         
-    }
-
-    public void freezePlayer(bool doFreeze)
-    {
-        if (doFreeze)
-        {
-            isFreezed = true;
-            doMove = false;
-        }
-        else
-        {
-            isFreezed = false;
-            doMove = true;
-        }
-    }
-
-    public void knockbackPlayer()
-    {
-        doKnockback = true;
-    }
-
-    public void bumpbounce()
-    {
-        doBump = true;
     }
 
     public void playerMovement()
@@ -172,23 +146,14 @@ public class PlayerController : MonoBehaviour
     {
         if (doMove)
         {
-            //PC
             theRb.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal") , theRb.velocity.y);
-            //ANDROID
-            //theRb.velocity = new Vector2(moveSpeed * CrossPlatformInputManager.GetAxis("Horizontal"), theRb.velocity.y);
 
-            //PC
             if (Input.GetAxisRaw("Horizontal") != 0)
             {
                 camTarget.localPosition = new Vector3(Mathf.Lerp(camTarget.localPosition.x, aheadAmount * Input.GetAxisRaw("Horizontal"), aheadSpeed * Time.deltaTime), camTarget.localPosition.y, camTarget.localPosition.z);
             }
-            //ANDROID
-            //if (CrossPlatformInputManager.GetAxisRaw("Horizontal") != 0)
-            //{
-            //    camTarget.localPosition = new Vector3(Mathf.Lerp(camTarget.localPosition.x, aheadAmount * CrossPlatformInputManager.GetAxisRaw("Horizontal"), aheadSpeed * Time.deltaTime), camTarget.localPosition.y, camTarget.localPosition.z);
-            //}
 
-            //Particle System foot
+            //Particle System Walking
             if (Input.GetAxisRaw("Horizontal") != 0 && isGrounded)
             {
                 footEmission.rateOverTime = 15f;
@@ -198,7 +163,7 @@ public class PlayerController : MonoBehaviour
                 footEmission.rateOverTime = 0f;
             }
 
-            //Particle System Impact
+            //Particle System Jump Impact
             if(!wasOnGround && isGrounded)
             {
                 impactDust.gameObject.SetActive(true);
@@ -272,6 +237,30 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    //Player Events
+    public void freezePlayer(bool doFreeze)
+    {
+        if (doFreeze)
+        {
+            isFreezed = true;
+        }
+        else
+        {
+            isFreezed = false;
+        }
+    }
+
+    public void knockbackPlayer()
+    {
+        doKnockback = true;
+    }
+
+    public void bumpbounce()
+    {
+        doBump = true;
+    }
+
+    //Player Collisions
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Platform"))

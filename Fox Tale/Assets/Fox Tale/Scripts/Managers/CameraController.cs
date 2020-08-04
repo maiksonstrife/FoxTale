@@ -67,12 +67,13 @@ public class CameraController : MonoBehaviour
             }
             else
             {
-                parallaxEffect();
-                CameraFollowAhead();
+                if (!PlayerController.instance.isFreezed)
+                {
+                    parallaxEffect();
+                    CameraFollowAhead();
+                }
             }  
         }
-
-        playerVelocity = theRb.velocity.y;
     }
 
     void CameraFollowAhead()
@@ -94,6 +95,7 @@ public class CameraController : MonoBehaviour
             {
                 cameraSpeedFall = 0;
             }
+
             //on normal
             if (!PlayerController.instance.theSR.flipX)
             {

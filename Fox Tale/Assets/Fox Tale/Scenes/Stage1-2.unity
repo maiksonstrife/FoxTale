@@ -59458,6 +59458,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.96
       objectReference: {fileID: 0}
+    - target: {fileID: 3494166906937463501, guid: bef1162b4978bdf40bbf3713049679c4,
+        type: 3}
+      propertyPath: bumpForce
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 4676575905886666028, guid: bef1162b4978bdf40bbf3713049679c4,
         type: 3}
       propertyPath: moveSpeed

@@ -13,7 +13,7 @@ public class PlayerOverWorld : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -29,13 +29,14 @@ public class PlayerOverWorld : MonoBehaviour
         if (Vector2.Distance(transform.position, currentPoint.transform.position) < .1f && !levelLoading)
         {
 
-            if (currentPoint.isLevel == true && !currentPoint.isLocked)
+            if (currentPoint.isLevel == true && currentPoint.isLocked)
             {
-                OverworldUIController.instance.showInfo(currentPoint);
+                OverworldUIController.instance.showInfoLocked();
             }
 
             if (currentPoint.isLevel == true && !currentPoint.isLocked)
             {
+                OverworldUIController.instance.showInfo(currentPoint);
                 if (isJump)
                 {
                     levelLoading = true;
@@ -92,7 +93,6 @@ public class PlayerOverWorld : MonoBehaviour
     {
         OverworldUIController.instance.hideInfo();
         AudioManager.instance.playSFX(5);
-
         currentPoint = nextPoint;
     }
 
