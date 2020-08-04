@@ -70,7 +70,4 @@ Change Screen Size: "ESC" Fullscreen (Native: 1080p) / Windowed (Forced: 720p)
 ## Cool Effects using Universal Render Pipeline + 2D Shader Graph
 ![Alt Text](https://media.giphy.com/media/egue134T4NjeGsqZhc/giphy.gif)
 
-## Shaders
-![Alt Text](https://media.giphy.com/media/UsAGaiJuVnB1A6JwyY/giphy.gif)
-
 
