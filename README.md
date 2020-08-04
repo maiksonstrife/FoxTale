@@ -1,5 +1,21 @@
 # FoxTale
-A Repository for a completed Staged/MetroidVania Game Example
+this project is to showcase my skills in Unity3D and Coding.
+Those having the objectives in mind:
+
+## A Repository for a completed Staged/MetroidVania Design
+- [x] A example of good practices
+- [x] Complete and functional Game start to finish
+- [x] Keep it simple platformer
+- [x] Make use at least once of each Unity3D features for 2D Games
+- [x] Game feel improvement techniques
+
+## This project was made possible by the following Graphics assets:
+[Sunny Land By Ansimuz (stages graphics)](https://assetstore.unity.com/packages/2d/characters/sunny-land-103349)
+[Gothicvania Swamp Art By Ansimuz (stages graphics)](https://assetstore.unity.com/packages/2d/characters/gothicvania-swamp-152865)
+[Sunny Land Forest By Ansimuz (stages graphics)](https://assetstore.unity.com/packages/2d/characters/sunny-land-forest-108124)
+[Decorate Foldout (Unity3D inspector improvement asset)](https://github.com/PixeyeHQ/InspectorFoldoutGroup)
+[Nameless: The Hackers RPG Soundtrack (Music)](https://freemusicarchive.org/music/BoxCat_Games/Nameless_the_Hackers_RPG_Soundtrack)
+
 
 # Play Here on Desktop Browser
 https://maiksonstrife.github.io/FoxTalePlayGitPage/
