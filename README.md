@@ -47,12 +47,13 @@ Change Screen Size: "ESC" Fullscreen (Native: 1080p) / Windowed (Forced: 720p)
 ![](img/Finishing_Stages.png)
 
 ## World Map
--Stage Select<br>
--Keep Track on Progression: Save System (multi Platform)<br>
--Keep track of Collectibles and Time<br>
+- [x] Stage Select
+- [x] Keep Track on Progression: Save System
+- [x] Keep track of Collectibles and Time
 ![](img/Wolrd_Map.png)
 
 ## Final Boss
+- [x] At each damage, boss keeps adding velocity and is able to hold more attacks
 ![](img/FinalBoss.png)
 
 ## Game Ending
@@ -63,8 +64,8 @@ Change Screen Size: "ESC" Fullscreen (Native: 1080p) / Windowed (Forced: 720p)
 ![](img/BehaviorStateMachine.png)
 
 ## Player Controller on Good Practices
--Physics is handled in FixedUpdate to check booleans<br>
--Controls is based on boolean checks in FixedUpdate<br>
+- [x] Physics is handled in FixedUpdate to check booleans
+- [x] Controls is based on boolean checks in FixedUpdate
 ![](img/PlayerPhysics.png)
 
 ## Cool Effects using Universal Render Pipeline + 2D Shader Graph
