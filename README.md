@@ -17,7 +17,7 @@ Jumping: "Space"<br>
 Action: "B"<br>
 Change Screen Size: "ESC" Fullscreen (Native: 1080p) / Windowed (Forced: 720p)
 
-## This project was made possible by the following Graphics assets:
+## This project was made possible by the following Graphics Assets:
 ### Stages Art
 [Sunny Land By Ansimuz (stages graphics)](https://assetstore.unity.com/packages/2d/characters/sunny-land-103349)<br>
 [Gothicvania Swamp Art By Ansimuz (stages graphics)](https://assetstore.unity.com/packages/2d/characters/gothicvania-swamp-152865)<br>
