@@ -79,3 +79,6 @@ Change Screen Size: "ESC" Fullscreen (Native: 1080p) / Windowed (Forced: 720p)
 - [x] Camera moving ahead of player (when player changes direction the camera position goes a little ahead to his facing position)
 - [x] Screenshake (visual response to the game feedback)
 
+## Notes
+> I do need a Job, why don't you visit my [portfolio](https://maiksonstrife.github.io/maiksonportfolioGitPage/)<br>
+> I don't know why I'm writting in english if the game text is only avaliable in brazillian-portuguese through<br>
