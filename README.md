@@ -81,4 +81,4 @@ Change Screen Size: "ESC" Fullscreen (Native: 1080p) / Windowed (Forced: 720p)
 
 ## Notes
 > I do need a Job, why don't you visit my [portfolio](https://maiksonstrife.github.io/maiksonportfolioGitPage/)<br>
-> I don't know why I'm writting in english if the game text is only avaliable in brazillian-portuguese through<br>
+> I don't know why I'm writting in english if the game text is only avaliable in brazilian-portuguese through<br>
