@@ -72,7 +72,7 @@ Change Screen Size: "ESC" Fullscreen (Native: 1080p) / Windowed (Forced: 720p)
 ![Alt Text](https://media.giphy.com/media/egue134T4NjeGsqZhc/giphy.gif)
 
 
-## Other Techniques to Improve Gameplay
+## Techniques to Improve Gameplay
 - [x] Ghost Jump (A quick timer when player falls of the ground: It does not penalize too much on mistake by giving a small window to still be able to jump)
 - [x] Flash Sprites (Visual response to the game damage feedback)
 - [x] Smooth Camera (using linear interpolation)
