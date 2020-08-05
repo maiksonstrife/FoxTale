@@ -57,7 +57,7 @@ Change Screen Size: "ESC" Fullscreen (Native: 1080p) / Windowed (Forced: 720p)
 ![](img/FinalBoss.png)
 
 ## Game Ending
--Bring back the FROG CHAIR to the frogs!!!<br>
+- [x] Bring back the FROG CHAIR to the frogs!!!
 ![](img/FrogChairIsFound.png)
 
 ## State Machine Scripting for Boss Behavior
@@ -65,7 +65,7 @@ Change Screen Size: "ESC" Fullscreen (Native: 1080p) / Windowed (Forced: 720p)
 
 ## Player Controller on Good Practices
 - [x] Physics is handled in FixedUpdate to check booleans
-- [x] Controls is based on boolean checks in FixedUpdate
+- [x] Control Input is based on boolean checks in Update<br>
 ![](img/PlayerPhysics.png)
 
 ## Cool Effects using Universal Render Pipeline + 2D Shader Graph
