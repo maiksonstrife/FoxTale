@@ -2,7 +2,7 @@
 this project is to showcase my skills in Unity3D and Coding.
 Those having the objectives in mind:
 
-## A Repository for a completed Staged/MetroidVania Design
+**_Being a Repository for a completed Staged/MetroidVania Design_**
 - [x] A example of good practices
 - [x] Complete and functional Game start to finish
 - [x] Keep it simple platformer
