@@ -28,7 +28,7 @@ Change Screen Size: "ESC" Fullscreen (Native: 1080p) / Windowed (Forced: 720p)
 
 # Game Features snippets
 
-## Rooms System easy to setup
+## Rooms System setup
 ![](img/RoomsSystem.png)
 
 ## Room System In-Game
